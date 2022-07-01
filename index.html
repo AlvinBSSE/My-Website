@@ -12,32 +12,37 @@
     <title>Personal Website</title>
 </head>
 <body>
-    <h1>Alvin's Website</h1>
-    <div id="about">
-        <h2>About</h2>
-        <img src="img/Alvin.jpg" alt="">
-        <p>Just a random guy learning to build cool web projects</p>
-    </div>
-    
-    <div id="hobbies">
-        <h2><a href="./hobbies.html" target="_self">Hobbies</a></h2>
-    </div>
-    
-    <div id="contact">  
-            <form id="contact" action="" method="post">
-              <h2>Contact</h2>
-              <fieldset>
-                <input placeholder="Your name" type="text" required>
-                <br>
-                <input placeholder="Your Email Address" type="email">
-                <br>
-                <textarea placeholder="Type your Message Here...." required></textarea>
-                <br>
-                <button name="submit" type="submit">
-                    <a href="mailto:alvin.betariza@students.mak.ac.ug">Submit</a>
-                </button>
-              </fieldset>
-            </form>
+    <div class="grid-container">
+
+        <a class="grid-item bio" href="./bio.html" target="_self">
+            <div>
+                <h2>My Bio</h2>
+            </div>
+        </a>
+
+        <a class="grid-item pfp" href="./photo.html" target="_self">
+            <div>
+                <h2>My Photo</h2>
+            </div>
+        </a>
+
+        <a class="grid-item education" href="./education.html" target="_self">
+            <div>
+                <h2>My Education History</h2>
+            </div>
+        </a>
+
+        <a class="grid-item hobbies" href="./hobbies.html" target="_self">
+            <div>
+                <h2>My Hobbies</h2>
+            </div>
+        </a>
+
+        <a class="grid-item contact" href="./contact.html" target="_self">
+            <div>  
+                <h2>Contact Me</h2>    
+            </div>
+        </a>
     </div>
 </body>
 </html>
